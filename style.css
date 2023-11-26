@@ -1,0 +1,102 @@
+/*
+.profpic{
+    border-radius: 50%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  */
+  /* Add a hover effect if you want 
+  .fa:hover {
+    opacity: 0.7;
+  } 
+  */
+  /* Set a specific color for each brand */
+  
+  /* Facebook 
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+  }*/
+  body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    color: #ff4500;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.profpic {
+    border-radius: 50%;
+    border: 5px solid #ff4500;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto;
+}
+
+td {
+    padding: 15px;
+}
+
+.title_social {
+    font-weight: bold;
+    color: #ff4500;
+    font-size: 1.2em;
+}
+
+.fa {
+    font-size: 2em;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.fa:hover {
+    color: #ff4500;
+    transform: rotate(360deg);
+}
+
+/* Add a crazy animation for fun */
+@keyframes crazyAnimation {
+    0% { transform: rotate(0); }
+    25% { transform: rotate(15deg); }
+    50% { transform: rotate(-15deg); }
+    75% { transform: rotate(10deg); }
+    100% { transform: rotate(0); }
+}
+
+h1, h2, p {
+    animation: crazyAnimation 1s infinite;
+}
+
+/* Add a bouncing animation to social icons */
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-github, .fa-snapchat, .fa-whatsapp, .fa-linkedin {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
